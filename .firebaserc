@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "netflixgpt-9859c"
-  }
+    "default": "netflixgpt-c0564"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }

@@ -5,7 +5,6 @@ const Browes = () => {
   return (
     <div>
       <Header />
-      Browes
     </div>
   );
 };

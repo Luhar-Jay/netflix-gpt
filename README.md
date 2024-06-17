@@ -15,6 +15,11 @@
 - Created are Redux Store with userSlice
 - Implemented SignOut Page
 - Update Profile
+- Fetch from Rapidapi Movies
+- Bugfix: Signuo user displayName and profile picture update
+- Bugfix: if the user is not logged in Redirect / Browse to Login and Vise-verse
+- Unsubscribed to be onAuthStateChanged callback
+- Add hard coded values to the constants files
 
 # Features
 

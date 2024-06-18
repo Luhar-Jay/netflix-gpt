@@ -20,6 +20,8 @@
 - Bugfix: if the user is not logged in Redirect / Browse to Login and Vise-verse
 - Unsubscribed to be onAuthStateChanged callback
 - Add hard coded values to the constants files
+- Create an app and get access token
+- Get data form RapidAPI movies list API
 
 # Features
 

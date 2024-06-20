@@ -22,6 +22,8 @@
 - Add hard coded values to the constants files
 - Create an app and get access token
 - Get data form RapidAPI movies list API
+- Embeded Youtube Video and make autoplay and mute
+- tailiwnd classis to make Main Conatainer look awesome
 
 # Features
 

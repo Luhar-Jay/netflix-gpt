@@ -1,22 +1,30 @@
-import { useDispatch } from "react-redux";
-import { API_OPTIONS } from "../utils/constants";
-import { addNowMoviePlaying } from "../utils/movieSlice";
-import { useEffect } from "react";
+// import { useDispatch } from "react-redux";
+// import { API_OPTIONS } from "../utils/constants";
+// import { addNowMoviePlaying } from "../utils/movieSlice";
+import { useEffect, useState } from "react";
+import mock from "../utils/mock.json";
 
 const useNowPlayingMovies = () => {
   // Fetch data from RapidAPI and update store
-  const dispatch = useDispatch();
-
-  const getNowPlayingMovie = async () => {
-    const data = await fetch("imdb-top-100-movies.p.rapidapi.com", API_OPTIONS);
-    const json = await data.json();
-    console.log(json);
-    dispatch(addNowMoviePlaying(json));
-  };
+  // const dispatch = useDispatch();
+  const [isData, setIsData] = useState([]);
 
   useEffect(() => {
-    getNowPlayingMovie();
+    setIsData(mock.json);
   }, []);
+  return isData;
+  // const getNowPlayingMovie =  () => {
+  //   // const data = await fetch(mock.json);
+  //   // const json = await data.json();
+  //   // console.log(json);
+  //   // console.log(data);
+  //   // dispatch(addNowMoviePlaying(data));
+
+  // };
+
+  // useEffect(() => {
+  //   getNowPlayingMovie();
+  // });
 };
 
 export default useNowPlayingMovies;

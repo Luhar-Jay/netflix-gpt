@@ -56,10 +56,10 @@ const Header = () => {
             src={user?.photoURL}
           />
           <button
-            className="text-center p-1 bg-red-600 rounded-lg m-1 font-bold text-white"
+            className="text-center p-1 px-2 bg-red-600 rounded-lg m-1 font-bold text-white"
             onClick={handleSignout}
           >
-            (Logout)
+            Logout
           </button>
         </div>
       )}

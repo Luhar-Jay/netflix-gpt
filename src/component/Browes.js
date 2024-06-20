@@ -1,14 +1,14 @@
 import Header from "./Header";
-import useNowplayingMovies from "../hooks/useNowPlayingMovies";
-import MainContainer from "./MainContainer";
 import SecondaryContainer from "./SecondaryContainer";
+import VideoTitle from "./VideoTitle";
+import VideoBackground from "./VideoBackground";
 
 const Browes = () => {
-  useNowplayingMovies();
   return (
     <div>
       <Header />
-      <MainContainer />
+      <VideoTitle />
+      <VideoBackground />
       <SecondaryContainer />
       {/* 
         MoviesContainer

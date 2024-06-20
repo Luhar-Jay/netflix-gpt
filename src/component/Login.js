@@ -27,9 +27,6 @@ const Login = () => {
       password.current.value
     );
 
-    console.log(email.current.value);
-    console.log(password.current.value);
-
     setErrorMessage(message);
 
     if (message) return;
@@ -64,7 +61,6 @@ const Login = () => {
               // An error occurred
               setErrorMessage(error.message);
             });
-          console.log(user);
         })
         .catch((error) => {
           const errorCode = error.code;

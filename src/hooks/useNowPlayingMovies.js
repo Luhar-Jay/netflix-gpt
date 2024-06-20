@@ -16,8 +16,6 @@ const useNowPlayingMovies = () => {
   // const getNowPlayingMovie =  () => {
   //   // const data = await fetch(mock.json);
   //   // const json = await data.json();
-  //   // console.log(json);
-  //   // console.log(data);
   //   // dispatch(addNowMoviePlaying(data));
 
   // };

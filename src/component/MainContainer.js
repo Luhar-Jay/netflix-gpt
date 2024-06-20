@@ -1,6 +1,4 @@
 import React from "react";
-import VideoBackground from "./VideoBackground";
-import VideoTitle from "./VideoTitle";
 import { useSelector } from "react-redux";
 
 const MainContainer = () => {
@@ -11,12 +9,12 @@ const MainContainer = () => {
   const mainMovies = movies[0];
   if (!mainMovies) return null;
 
-  // const { title, description, trailer } = mainMovies;
+  // const { title, description } = mainMovies;
 
   return (
     <div>
-      {/* <VideoTitle title={title} description={description} /> */}
-      {/* <VideoBackground trailer={trailer} /> */}
+      {/* <VideoTitle title={title} description={description} />
+      <VideoBackground /> */}
     </div>
   );
 };

@@ -24,6 +24,10 @@
 - Get data form RapidAPI movies list API
 - Embeded Youtube Video and make autoplay and mute
 - tailiwnd classis to make Main Conatainer look awesome
+- Build Secondary component
+- Build Movie List
+- Build Movie Card
+- Movies List using Tailwind css
 
 # Features
 

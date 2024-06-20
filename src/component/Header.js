@@ -45,6 +45,7 @@ const Header = () => {
 
     return () => unsubscribe();
   }, []);
+
   return (
     <div className="absolute w-screen bg-gradient-to-b from-gray-400 px-8 py-2 z-10 flex justify-between">
       <img className="w-48 mx-24 " src={LOGO} alt="Logo" />

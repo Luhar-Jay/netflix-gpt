@@ -6,11 +6,10 @@ import { IoIosInformationCircleOutline } from "react-icons/io";
 const VideoTitle = () => {
   const [movies, setMovies] = useState([]);
   useEffect(() => {
-    setMovies(data[0]);
+    setMovies(data[17]);
   }, []);
-  console.log(data);
   return (
-    <div className="w-screen aspect-video pt-72 px-24 absolute text-white bg-gradient-to-r from-black ">
+    <div className="w-screen aspect-video pt-52 px-24 absolute text-white bg-gradient-to-r from-black ">
       <div key={movies}>
         <h1 className="text-2xl font-bold m-4">{movies.title}</h1>
         <p className="w-1/4 m-4">{movies.description}</p>
@@ -20,11 +19,11 @@ const VideoTitle = () => {
       <div className="flex flex-row my-4 text-white">
         <button className="bg-white text-lg font-bold flex text-black hover:bg-slate-300 rounded-xl items-center  p-4 px-10">
           <FaPlay />
-          <spam className="pl-1">Play</spam>
+          <span className="pl-1">Play</span>
         </button>
         <button className="bg-gray-500 text-lg font-bold flex bg-opacity-50 rounded-xl items-center  p-4 px-10 mx-4">
           <IoIosInformationCircleOutline />
-          <spam className="pl-1">More Info</spam>
+          <span className="pl-1">More Info</span>
         </button>
       </div>
     </div>

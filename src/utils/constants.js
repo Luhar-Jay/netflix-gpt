@@ -14,3 +14,5 @@ export const API_OPTIONS = {
     "x-rapidapi-host": "imdb-top-100-movies.p.rapidapi.com",
   },
 };
+
+export const IMG_CDN_URL = "https://m.media-amazon.com/images/M";
